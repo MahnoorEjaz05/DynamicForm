@@ -17,18 +17,15 @@
     "web-vitals": "^2.1.4",
     "yup": "^1.6.1"
   },
+  "homepage": "https://MahnoorEjaz05.github.io/DynamicForm",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "deploy": "gh-pages -d build"
+},
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
+  "extends": "react-app"
+},
   "browserslist": {
     "production": [
       ">0.2%",
@@ -40,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
